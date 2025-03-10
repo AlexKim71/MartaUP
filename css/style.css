@@ -1,0 +1,272 @@
+.header {
+    background-image: url('../images/bg__header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 793px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 45px;   
+}
+
+.text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__list--item + .menu__list--item {
+    padding-left: 50px;
+}
+
+.menu__list--item__link {
+    color: #fff;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #fff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    transition: all .5s linear;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.menu__list--item__link:hover {
+   color: #fff;
+   opacity: 1;
+}
+
+.login {
+    color: #fff;
+    padding-right: 44px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    transition: opacity .6s linear;
+}
+
+.login:hover {
+    opacity: 0.5;
+}
+
+.signup {
+    padding: 8px 43px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    color: #250F8A;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.header__slider {
+    padding-top: 111px;
+   
+}
+
+.header__slider--item__content {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header__slider--item__info {
+    max-width: 506px;
+    color: #fff;
+}
+
+.header__slider--title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 60px;
+    margin-bottom: 10px;
+    max-width: 519px;   
+}
+
+.header__slider--description {
+    font-family: 'Source Sans Pro';
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 55px;
+    margin-bottom: 60px;
+}
+
+.header__slider--btn {
+    text-transform: uppercase;
+    border-radius: 25px;
+    padding: 13px 39px;
+    background-color: #FFCA00;
+    color: #250F8A;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    opacity: 1;
+    transition: opacity .5s linear;
+}
+
+.header__slider--btn:hover {
+    opacity: 0.8;
+}
+ 
+.header__slider--item__images--img {
+    margin: 10px 82px 0 0; 
+}
+
+.header__dots {
+    list-style-type: none;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    
+}
+
+.header__dots button {
+    border: none;
+    background-color: #fff;
+    opacity: 0.5;
+    outline: none;
+    font-size: 0;
+    padding: 0;
+    width: 7px;
+    height: 7px;
+    border-radius: 3.5px;
+    cursor: pointer;
+    margin: 10px auto;
+    display: block;
+    
+}
+
+.header__dots .slick-active button {
+    width: 15px;
+    opacity: 1;
+    
+}
+
+.specialised {
+    padding: 55px 0 93px;
+    background-image: url('../images/specialised__bg.svg');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    text-align: center;
+}
+
+.specialised__title {
+    color: #202020;
+    margin-bottom: 96px;
+}
+
+.specialised__items {
+    display: flex;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.specialised__item {
+    width: 280px;
+}
+
+.specialised__item--title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.specialised__item--text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    color: #272727;
+    margin-bottom: 93px;
+}
+
+
+.advantages {
+    background-image: url('../images/advantages__bg.jpg');
+}
+
+.advantages-1 {
+    margin: 91px 0 76px 0;
+    
+}
+
+.advantages-2 {
+    margin: 0 0 23px 0;
+    
+}
+
+.advantages-3 {
+    margin: 0 0 55px 0;
+    
+}
+
+.advantages-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantages-box__info--title  {
+    margin-bottom: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.advantages-text__1 {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    
+}
